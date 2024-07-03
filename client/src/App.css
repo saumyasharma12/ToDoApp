@@ -1,0 +1,28 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(167, 190, 190);
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  background: rgba(13, 165, 224, 0.308); /*background: rgba(135, 206, 235, 0.3); Sky blue with transparency */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 20px;
+  color: #333;
+}
